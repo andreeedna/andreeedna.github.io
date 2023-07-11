@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: single-cell RNA
+description: a best practiceof single-cell RNAseq
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: tutorial
 ---
 
 Every project has a beautiful feature showcase page.

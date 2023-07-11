@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: bulk RNAseq
+description: a best practice of RNAseq analysis
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: tutorial
 ---
 
 Every project has a beautiful feature showcase page.
