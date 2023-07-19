@@ -54,7 +54,7 @@
   type: time_table
   contents:
     - title: Lipid-Associated Macrophages Reshape BAT Cell Identity in Obesity
-      year: Cell Metabolism
+      year: Nat Metabolism
       institution: autori
 
     - title: Whole mitochondrial genome sequencing provides new insights into the phylogeography of the Mediterranean loggerhead sea turtle
@@ -89,13 +89,14 @@
   contents:
     - title: Transcriptomics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Machine Learning applied to biology
+        - Single-cell RNAseq
+        - Bulk RNAseq
+        - Creation of new analysis tool
+    - title: Artificial Intelligence applied to biology
       items:
-        - Description 1.
-        - Description 2.
+        - Machine Learning applied to Transcriptomics data
+        - Deep Learning for microspoce image recognition
     - title: Molecular Dynamics
       items:
-        - Description 1.
-        - Description 2.
+        - Docking
+        - Virtual screening
