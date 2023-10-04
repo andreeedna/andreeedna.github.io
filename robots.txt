@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://andreeedna.github.io/sitemap.xml
+Sitemap: https://andreeedna.github.ioandre# the subpath of your site, e.g. /blog//sitemap.xml
