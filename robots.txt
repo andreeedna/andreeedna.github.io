@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://andreeedna.github.ioandre/sitemap.xml
+Sitemap: https://andreeedna.github.io/sitemap.xml
