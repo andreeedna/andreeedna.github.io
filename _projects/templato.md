@@ -1,10 +1,10 @@
 ---
 layout: page
-title: R for Bioinfo 
+title: R for Bioinfo
 description: an R tutorial for trainees in bioinformatics
 img: assets/img/12.jpg
 importance: 1
-category: tutorial
+category: Tutorial
 ---
 
 Every project has a beautiful feature showcase page.

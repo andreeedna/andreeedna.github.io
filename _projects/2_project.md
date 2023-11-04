@@ -4,7 +4,7 @@ title: bulk RNAseq
 description: a best practice of RNAseq analysis
 img: assets/img/3.jpg
 importance: 2
-category: tutorial
+category: Transcriptomics
 ---
 
 Every project has a beautiful feature showcase page.

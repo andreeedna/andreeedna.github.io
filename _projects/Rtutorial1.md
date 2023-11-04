@@ -4,7 +4,7 @@ title: R per bioinfo
 description: un tutorial di R per la bioinformatica
 img: assets/img/12.jpg
 importance: 1
-category: tutorial
+category: Rcourse
 ---
 
 R è un linguaggio di programmazione utilizzato per la **manipolazione di dati**, il **calcolo statistico** e la **rappresentazione grafica**.

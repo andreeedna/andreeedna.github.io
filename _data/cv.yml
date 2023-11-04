@@ -32,7 +32,7 @@
       description:
         - Supervisor | Daniele Lettieri Barbato
         - Adipose tissue adaptation to environmental pressure -
-          Single cell analysis of adipose tissue and creation of new R package analysis tool
+          Single cell analysis of adipose tissue and development of new R package analysis tool
 
     - title: Graduate Researcher
       institution: RSSC Santa Lucia, Rome, Italy
@@ -54,16 +54,16 @@
   type: time_table
   contents:
     - title: Lipid-Associated Macrophages Reshape BAT Cell Identity in Obesity
-      year: Nat Metabolism
-      institution: autori
+      year: Cell Reports
+      institution:
 
     - title: Whole mitochondrial genome sequencing provides new insights into the phylogeography of the Mediterranean loggerhead sea turtle
       year: Marine Biology
-      institution: autori
+      institution:
 
     - title: Lipocalin-2 promotes adipose-macrophage interactions to shape peripheral and central inflammatory responses in experimental autoimmune encephalomyelitis
       year: Mol Metabolism
-      institution: autori
+      institution:
 
 
 - title: Presentation
@@ -76,6 +76,14 @@
 - title: Certification
   type: time_table
   contents:
+    - title: scRNA-seq hands-on course
+      year: 2023
+      institution: Bioinformatics Italian Society BITS
+
+    - title: Gene Ontology and Bioinformatic data resources Workshop
+      year: 2023
+      institution: UCL
+
     - title: High Performance Bioinformatics
       year: 2022
       institution: CINECA

@@ -5,7 +5,7 @@ permalink: /projects/
 #description: all my projects
 nav: true
 nav_order: 2
-display_categories: [tutorial, fun]
+display_categories: [Rcourse, Transcriptomics, Tutorial]
 horizontal: false
 ---
 
