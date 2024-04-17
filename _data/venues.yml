@@ -1,2 +1,23 @@
+#random
 "Mol Met":
   url: https://www.sciencedirect.com/journal/molecular-metabolism
+
+"Marine Bio":
+  url: https://link.springer.com/journal/227
+
+"Iscience":
+  url: https://www.cell.com/iscience/home
+
+"LSA":
+  url: https://www.life-science-alliance.org/
+
+#Cell
+"Cell Met":
+  url: https://www.cell.com/cell-metabolism/home
+
+"Cell Rep":
+  url: https://www.cell.com/cell-reports/home
+
+#Nature
+"Nat Met":
+  url: https://www.nature.com/natmetab/

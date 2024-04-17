@@ -1,10 +1,10 @@
 ---
 layout: page
-title: R per bioinfo
-description: un tutorial di R per la bioinformatica
-img: assets/img/12.jpg
+title: Lezione 1
+description: tutorial Rbase
+img: #assets/img/12.jpg
 importance: 1
-category: Rcourse
+category: Bioinformatics Course
 ---
 
 R è un linguaggio di programmazione utilizzato per la **manipolazione di dati**, il **calcolo statistico** e la **rappresentazione grafica**.

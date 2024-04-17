@@ -57,8 +57,16 @@
       year: Cell Reports
       institution:
 
+    - title: Frataxin Deficiency Drives a Shift from Mitochondrial Metabolism to Glucose Catabolism, Triggering an Inflammatory Phenotype in Microglia
+      year: LSA
+      institution:
+
     - title: Whole mitochondrial genome sequencing provides new insights into the phylogeography of the Mediterranean loggerhead sea turtle
       year: Marine Biology
+      institution:
+
+    - title: Butyrate prevents visceral adipose tissue inflammation and metabolic alterations in a Friedreich’s ataxia mouse model
+      year: Iscience
       institution:
 
     - title: Lipocalin-2 promotes adipose-macrophage interactions to shape peripheral and central inflammatory responses in experimental autoimmune encephalomyelitis
@@ -76,6 +84,14 @@
 - title: Certification
   type: time_table
   contents:
+    - title: Introduction to Deep Learning
+      year: 2024
+      institution: CINECA
+
+    - title: Preparation of genomics libraries for an emerging next-gen sequencing platform
+      year: 2023
+      institution: EMBL
+
     - title: scRNA-seq hands-on course
       year: 2023
       institution: Bioinformatics Italian Society BITS
