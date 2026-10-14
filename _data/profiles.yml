@@ -1,0 +1,51 @@
+# Profile cards shown at the top of the Publications page and the Instagram box on Illustrations.
+# Update the numbers by hand from time to time (blank values are simply hidden).
+# photo: path inside the site, or a full https:// URL.
+
+researchgate:
+  network: ResearchGate
+  icon: ai ai-researchgate
+  url: https://www.researchgate.net/profile/Andrea-Ninni
+  photo: /assets/img/prof_pic.jpg
+  name: Andrea Ninni
+  position: PostDoc Researcher
+  affiliation: University of Rome Tor Vergata · Department of Biology
+  lab: Daniele Lettieri-Barbato's Lab
+  tags: [Bioinformatics, Single-cell RNA-seq, R programming, Immunology, Adipose tissue]
+  stats:
+    - label: Research items
+      value: "16"
+    - label: Reads
+      value: "1,834"
+    - label: Citations
+      value: "85"
+  updated: Oct 2026
+
+scholar:
+  network: Google Scholar
+  icon: ai ai-google-scholar
+  url: https://scholar.google.com/citations?user=7bdyu2kAAAAJ&hl=en
+  photo: /assets/img/prof_pic.jpg
+  name: Andrea Ninni
+  position: PostDoc Researcher
+  affiliation: University of Rome Tor Vergata
+  lab: Integrative Physiology and Metabolism Laboratory
+  tags: [Single-cell transcriptomics, Adipose tissue, Macrophages, Immunometabolism, Bioinformatics]
+  stats:
+    # fill in from your Scholar page (Citations / h-index / i10-index, column "All")
+    - label: Citations
+      value: "109"
+    - label: h-index
+      value: "5"
+    - label: i10-index
+      value: "5"
+  updated: Oct 2026
+
+instagram:
+  handle: andreeefacose
+  url: https://www.instagram.com/andreeefacose/
+  title: Scientific illustration
+  text: >
+    @andreeefacose is my illustration project, where I share stories about myself, the world around me, and the things I love.
+    Scientific illustration is also part of this journey.
+    Follow me if you’d like to support my work and see the project grow.

@@ -2,33 +2,64 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<section class="hero">
+<div class="hero-text">
+<h1>Andrea Ninni</h1>
+<p class="role">PostDoc Researcher<span>University of Rome Tor Vergata · Integrative Physiology and Metabolism Laboratory</span></p>
+<p class="lead">I study how adipose tissue adapts to its environment and the role of macrophages in this role, using single-cell and bulk transcriptomics. When the analysis I need does not exist, I build it: the latest example is <strong>MACanalyzeR</strong>, an R package for profiling monocytes and macrophages in single-cell RNA-seq data.</p>
+<div class="hero-actions">
+<a class="btn-site primary" href="https://doi.org/10.1038/s41467-025-60295-2">Read the Nature Communication paper</a>
+<a class="btn-site" href="{{ '/projects/MACanalyzeR_Vignette/' | relative_url }}">MACanalyzeR Vignette</a>
+<a class="btn-site" href="{{ '/cv/' | relative_url }}">CV</a>
+</div>
+<p class="affiliation">Department of Biology, University of Rome Tor Vergata, 00133 Rome, Italy<br>Supervisor: Daniele Lettieri Barbato</p>
+</div>
+<div class="hero-visual">
+<div class="portrait">{% include figure.html path="assets/img/prof_pic.jpg" alt="Portrait of Andrea Ninni" %}</div>
+</div>
+</section>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## What I work on
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<ul class="themes">
+<li>
+<h3>Adipose tissue and its environment</h3>
+<p>How brown and white fat remodel under metabolic stress such as obesity, mapped cell by cell with single-cell and bulk RNA-seq.</p>
+</li>
+<li>
+<h3>Macrophages and immunometabolism</h3>
+<p>Lipid-associated macrophages in brown fat, what they secrete, and how they change the identity of the cells around them.</p>
+</li>
+<li>
+<h3>Tools for transcriptomics</h3>
+<p>R packages and machine-learning models that turn single-cell data into answers, with an eye on deep learning for microscopy images.</p>
+</li>
+</ul>
+
+## Selected publications
+
+<div class="publications publications-flat">
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* --group_by none %}
+</div>
+
+<p><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+
+## Also here
+
+<div class="feature-row">
+<a class="feature" href="{{ '/codonle/' | relative_url }}">
+<span class="tag">game</span>
+<h3>Codonle</h3>
+<p>A daily puzzle on the genetic code: find the codon, pair its anticodon, name the amino acid.</p>
+</a>
+<a class="feature" href="{{ '/illustrations/' | relative_url }}">
+<span class="tag">gallery</span>
+<h3>Scientific illustrations</h3>
+<p>Figures and drawings that explain biology, collected in one place.</p>
+</a>
+</div>

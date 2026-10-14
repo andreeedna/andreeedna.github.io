@@ -1,0 +1,21 @@
+{%- assign p = include.profile -%}
+<a class="profile-card {{ include.brand }}" href="{{ p.url }}" target="_blank" rel="noopener noreferrer">
+  <div class="pc-band">
+    <span class="pc-network"><i class="{{ p.icon }}"></i> {{ p.network }}</span>
+  </div>
+  <div class="pc-body">
+    <img class="pc-avatar" src="{% if p.photo contains '://' %}{{ p.photo }}{% else %}{{ p.photo | relative_url }}{% endif %}" alt="{{ p.name }}" width="84" height="84" loading="lazy">
+    <h3 class="pc-name">{{ p.name }}</h3>
+    <p class="pc-role">{{ p.position }}</p>
+    <p class="pc-aff">{{ p.affiliation }}{% if p.lab %}<br>{{ p.lab }}{% endif %}</p>
+    {%- if p.tags %}
+    <ul class="pc-tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+    {%- endif %}
+    <dl class="pc-stats">
+      {%- for s in p.stats %}
+      <div><dt>{{ s.label }}</dt><dd>{% if s.value != "" and s.value %}{{ s.value }}{% else %}–{% endif %}</dd></div>
+      {%- endfor %}
+    </dl>
+    <span class="pc-cta">View profile <span aria-hidden="true">→</span></span>
+  </div>
+</a>

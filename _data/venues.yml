@@ -1,9 +1,32 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+#random
+"BioPha":
+  url: https://www.sciencedirect.com/journal/biomedicine-and-pharmacotherapy
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Mol Met":
+  url: https://www.sciencedirect.com/journal/molecular-metabolism
 
-"Vision":
-  color: "#009f36"
+"Marine Bio":
+  url: https://link.springer.com/journal/227
+
+"iScience":
+  url: https://www.cell.com/iscience/home
+
+"LSA":
+  url: https://www.life-science-alliance.org/
+
+#Cell
+"Cell Met":
+  url: https://www.cell.com/cell-metabolism/home
+
+"Cell Rep":
+  url: https://www.cell.com/cell-reports/home
+
+"CDD":
+  url: https://www.nature.com/cddis/
+
+#Nature
+"Nat Met":
+  url: https://www.nature.com/natmetab/
+
+"Nat Commun":
+  url: https://www.nature.com/ncomms/

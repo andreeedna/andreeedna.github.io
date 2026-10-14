@@ -1,0 +1,18 @@
+# Add one entry per illustration (newest first). Put the image in assets/img/illustrations/.
+# - title: Lipid-associated macrophage
+#   image: lam.png
+#   caption: Foamy macrophage loaded with lipid droplets, drawn in Procreate.
+#   year: 2026
+#   tags: [macrophage, adipose tissue]
+
+- title: Brown Adipose Tissue
+  image: bat.jpg
+  caption: Brown Adipose Tissue, drawn in Procreate.
+  year: 2026
+  tags: [brown adipose tissue]
+
+- title: White Adipose Tissue
+  image: wat.png
+  caption: White Adipose Tissue, drawn in Procreate.
+  year: 2026
+  tags: [white adipose tissue]
